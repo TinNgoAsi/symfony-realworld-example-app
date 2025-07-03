@@ -61,6 +61,11 @@ docker compose up -d
 
 That's it, now you can open http://localhost/ in your browser.
 
+### Run application in dev mode, include xdebug
+```
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+```
+
 ### Run tests
 
 Override Docker settings to enable development features:
